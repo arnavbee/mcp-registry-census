@@ -1,0 +1,3002 @@
+[
+ {
+  "name": "ai.rootdata/public-directory",
+  "url": "https://rootdata.ai/api/mcp",
+  "type": "streamable-http",
+  "published": "2026-05-27",
+  "updated": "2026-05-27",
+  "state": "unreachable",
+  "detail": "URLError: <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>",
+  "ms": 1516
+ },
+ {
+  "name": "ai.mangii/manga",
+  "url": "https://mcp.mangii.ai/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-23",
+  "updated": "2026-08-23",
+  "state": "answered",
+  "detail": "mangii-mcp 2025-06-18",
+  "ms": 510
+ },
+ {
+  "name": "app.evertrain/evertrain",
+  "url": "https://mcp.evertrain.app/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-22",
+  "updated": "2026-08-22",
+  "state": "auth_required",
+  "detail": "Missing or malformed Authorization header (expected: Bearer <token>)",
+  "ms": 381
+ },
+ {
+  "name": "eu.ansvar/us-law",
+  "url": "https://gateway.ansvar.eu/us/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-13",
+  "updated": "2026-07-13",
+  "state": "auth_required",
+  "detail": "invalid_token",
+  "ms": 1023
+ },
+ {
+  "name": "com.opzyai/scan",
+  "url": "https://www.opzyai.com/api/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-03",
+  "updated": "2026-07-03",
+  "state": "not_mcp",
+  "detail": "http 404, unparseable",
+  "ms": 164
+ },
+ {
+  "name": "ai.smithery/zeta-chain-cli",
+  "url": "https://server.smithery.ai/@zeta-chain/cli/mcp",
+  "type": "streamable-http",
+  "published": "2025-09-19",
+  "updated": "2025-09-19",
+  "state": "not_mcp",
+  "detail": "http 404, unparseable",
+  "ms": 624
+ },
+ {
+  "name": "com.lassare/ask",
+  "url": "https://mcp.lassare.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-02-20",
+  "updated": "2026-02-20",
+  "state": "auth_required",
+  "detail": "Missing or invalid Authorization header",
+  "ms": 320
+ },
+ {
+  "name": "ai.b77/time",
+  "url": "https://time.b77.ai/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-14",
+  "updated": "2026-08-14",
+  "state": "not_mcp",
+  "detail": "http 401, unparseable",
+  "ms": 766
+ },
+ {
+  "name": "com.asksakina/islamic-knowledge",
+  "url": "https://sakina-mcp.fly.dev/sse",
+  "type": "sse",
+  "published": "2026-05-10",
+  "updated": "2026-05-10",
+  "state": "not_mcp",
+  "detail": "http 404, unparseable",
+  "ms": 549
+ },
+ {
+  "name": "com.tulugar/tulugar",
+  "url": "https://tulugar.com/api/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-18",
+  "updated": "2026-07-18",
+  "state": "answered",
+  "detail": "tulugar 2025-06-18",
+  "ms": 1292
+ },
+ {
+  "name": "com.wphealthkit/mcp-server",
+  "url": "https://mcp.wphealthkit.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-07",
+  "updated": "2026-08-07",
+  "state": "auth_required",
+  "detail": "unauthorized",
+  "ms": 88
+ },
+ {
+  "name": "ai.advisorsai/store-readiness",
+  "url": "https://advisorsai.ai/store-readiness-mcp",
+  "type": "streamable-http",
+  "published": "2026-08-28",
+  "updated": "2026-08-28",
+  "state": "answered",
+  "detail": "advisors-ai-store-readiness 2025-06-18",
+  "ms": 327
+ },
+ {
+  "name": "co.encorehq/encore-pages",
+  "url": "https://encore-pages-mcp.vercel.app/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-12",
+  "updated": "2026-08-12",
+  "state": "auth_required",
+  "detail": "invalid_token",
+  "ms": 582
+ },
+ {
+  "name": "com.tweetapi/mcp",
+  "url": "https://mcp.tweetapi.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-11",
+  "updated": "2026-08-11",
+  "state": "auth_required",
+  "detail": "Authorization bearer token is required.",
+  "ms": 337
+ },
+ {
+  "name": "io.github.AnthonyPuggs/ausecon-mcp-server",
+  "url": "https://mcp.auseconmcp.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-02",
+  "updated": "2026-09-02",
+  "state": "answered",
+  "detail": "ausecon-mcp-server 2025-06-18",
+  "ms": 347
+ },
+ {
+  "name": "dev.rateapi/mcp",
+  "url": "https://mcp.rateapi.dev/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-28",
+  "updated": "2026-08-28",
+  "state": "answered",
+  "detail": "rateapi-mcp 2025-03-26",
+  "ms": 61
+ },
+ {
+  "name": "com.rocket-core.intel/marketplace",
+  "url": "https://intel.rocket-core.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-27",
+  "updated": "2026-07-27",
+  "state": "not_mcp",
+  "detail": "http 530",
+  "ms": 77
+ },
+ {
+  "name": "com.laddro/career",
+  "url": "https://mcp.laddro.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-09",
+  "updated": "2026-09-09",
+  "state": "auth_required",
+  "detail": "unauthorized",
+  "ms": 509
+ },
+ {
+  "name": "energy.clarigrid/clarigrid",
+  "url": "https://mcp.clarigrid.energy/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-30",
+  "updated": "2026-07-30",
+  "state": "auth_required",
+  "detail": "invalid_token",
+  "ms": 730
+ },
+ {
+  "name": "com.enuygun/weg-mcp",
+  "url": "https://mcp.enuygun.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-07",
+  "updated": "2026-07-07",
+  "state": "answered",
+  "detail": "enuygun-mcp-server 2025-06-18",
+  "ms": 209
+ },
+ {
+  "name": "com.jeeva-jyotish/reference-search",
+  "url": "https://mcp.jeeva-jyotish.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-15",
+  "updated": "2026-07-15",
+  "state": "answered",
+  "detail": "jeeva-jyotish 2025-06-18",
+  "ms": 298
+ },
+ {
+  "name": "app.wishpool/italy-payments-mcp",
+  "url": "https://mcp-it.wishpool.app/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-09",
+  "updated": "2026-07-09",
+  "state": "unreachable",
+  "detail": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+  "ms": 5
+ },
+ {
+  "name": "app.desktopcommander/remote-desktop-commander",
+  "url": "https://mcp.desktopcommander.app/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-17",
+  "updated": "2026-07-17",
+  "state": "auth_required",
+  "detail": "Unauthorized",
+  "ms": 747
+ },
+ {
+  "name": "com.arc-relay/mcp",
+  "url": "https://arc-relay.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-28",
+  "updated": "2026-08-28",
+  "state": "answered",
+  "detail": "arc-relay 2025-03-26",
+  "ms": 366
+ },
+ {
+  "name": "com.devcycle/mcp",
+  "url": "https://mcp.devcycle.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-04-28",
+  "updated": "2026-04-28",
+  "state": "auth_required",
+  "detail": "invalid_token",
+  "ms": 58
+ },
+ {
+  "name": "dev.datatoll/sicily-stays",
+  "url": "https://mcp.datatoll.dev/mcp/registry",
+  "type": "streamable-http",
+  "published": "2026-08-18",
+  "updated": "2026-08-18",
+  "state": "answered",
+  "detail": "datatoll-sicily-stays 2025-06-18",
+  "ms": 851
+ },
+ {
+  "name": "eu.mmatinca/travel-trends-mcp",
+  "url": "https://travel-trends.mmatinca.eu/mcp/v1",
+  "type": "streamable-http",
+  "published": "2026-07-10",
+  "updated": "2026-07-10",
+  "state": "answered",
+  "detail": "travel-trends-public 2025-06-18",
+  "ms": 399
+ },
+ {
+  "name": "com.hatchable/hatchable",
+  "url": "https://hatchable.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-04-23",
+  "updated": "2026-04-23",
+  "state": "auth_required",
+  "detail": "invalid_token",
+  "ms": 1138
+ },
+ {
+  "name": "app.wishpool/ivory-coast-payments-mcp",
+  "url": "https://mcp-ci.wishpool.app/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-09",
+  "updated": "2026-07-09",
+  "state": "unreachable",
+  "detail": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+  "ms": 5
+ },
+ {
+  "name": "ai.bittlebits/bittlebits",
+  "url": "https://bittlebits.ai/mcp",
+  "type": "streamable-http",
+  "published": "2026-06-02",
+  "updated": "2026-06-02",
+  "state": "not_mcp",
+  "detail": "http 503, unparseable",
+  "ms": 1174
+ },
+ {
+  "name": "com.mcpscores/dev-package-intel",
+  "url": "https://devpkg-intel.bowling-anthony.workers.dev/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-31",
+  "updated": "2026-08-31",
+  "state": "answered",
+  "detail": "com.mcpscores/dev-package-intel 2025-06-18",
+  "ms": 197
+ },
+ {
+  "name": "io.github.1337mofo/australian-manufacturing-directory",
+  "url": "https://mcp.ausmanufacturingdirectory.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-25",
+  "updated": "2026-08-25",
+  "state": "answered",
+  "detail": "Australian Manufacturing Directory 2025-06-18",
+  "ms": 934
+ },
+ {
+  "name": "com.htagai/htag-intelligence",
+  "url": "https://api.htagai.com/mcp/v1/servers/htag/mcp",
+  "type": "streamable-http",
+  "published": "2026-06-12",
+  "updated": "2026-06-12",
+  "state": "not_mcp",
+  "detail": "http 401",
+  "ms": 1250
+ },
+ {
+  "name": "com.ranovam/betterstack-scraper",
+  "url": "https://mcp.apify.com?tools=enezli/betterstack-scraper",
+  "type": "streamable-http",
+  "published": "2026-08-31",
+  "updated": "2026-08-31",
+  "state": "auth_required",
+  "detail": "invalid_token",
+  "ms": 1231
+ },
+ {
+  "name": "co.brightkey/education-data",
+  "url": "https://brightkey.co/api/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-27",
+  "updated": "2026-07-27",
+  "state": "answered",
+  "detail": "mcp-typescript server on vercel 2025-06-18",
+  "ms": 980
+ },
+ {
+  "name": "com.desafiocomunicacion/services",
+  "url": "https://mcp.desafiocomunicacion.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-06",
+  "updated": "2026-09-06",
+  "state": "answered",
+  "detail": "desafio-comunicacion 2025-06-18",
+  "ms": 343
+ },
+ {
+  "name": "com.merchantwords/merchantwords",
+  "url": "https://mcp.merchantwords.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-07",
+  "updated": "2026-07-07",
+  "state": "answered",
+  "detail": "merchantwords 2024-11-05",
+  "ms": 275
+ },
+ {
+  "name": "co.orbilo/orbilo",
+  "url": "https://orbilo.co/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-07",
+  "updated": "2026-09-07",
+  "state": "answered",
+  "detail": "orbilo 2025-06-18",
+  "ms": 1136
+ },
+ {
+  "name": "com.lanyardo/site",
+  "url": "https://lanyardo.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-06",
+  "updated": "2026-09-06",
+  "state": "answered",
+  "detail": "Lanyardo (lanyardo.com) 2025-06-18",
+  "ms": 5142
+ },
+ {
+  "name": "io.github.CSOAI-ORG/agent-incident-relay-mcp",
+  "url": "https://api.meok.ai/v1/a2a/agent-incident-relay",
+  "type": "streamable-http",
+  "published": "2026-06-30",
+  "updated": "2026-06-30",
+  "state": "unreachable",
+  "detail": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+  "ms": 25
+ },
+ {
+  "name": "com.olyport/nhtsa",
+  "url": "https://mcp.olyport.com/nhtsa/mcp",
+  "type": "streamable-http",
+  "published": "2026-04-02",
+  "updated": "2026-04-02",
+  "state": "answered",
+  "detail": "nhtsa 2025-06-18",
+  "ms": 1342
+ },
+ {
+  "name": "com.maltapayrollcalculator/site",
+  "url": "https://maltapayrollcalculator.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-06",
+  "updated": "2026-09-06",
+  "state": "answered",
+  "detail": "Malta Payroll Calculator (maltapayrollcalculator.com) 2025-06-18",
+  "ms": 5162
+ },
+ {
+  "name": "app.wishpool/new-zealand-payments-mcp",
+  "url": "https://mcp-nz.wishpool.app/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-09",
+  "updated": "2026-07-09",
+  "state": "unreachable",
+  "detail": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+  "ms": 29
+ },
+ {
+  "name": "dev.fetchgate/fetchgate",
+  "url": "https://fetchgate.dev/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-22",
+  "updated": "2026-08-22",
+  "state": "answered",
+  "detail": "fetchgate 2025-06-18",
+  "ms": 409
+ },
+ {
+  "name": "com.thechrisgrey/mcp",
+  "url": "https://mcp.thechrisgrey.com",
+  "type": "streamable-http",
+  "published": "2026-04-21",
+  "updated": "2026-04-21",
+  "state": "answered",
+  "detail": "alti-mcp 2025-06-18",
+  "ms": 1121
+ },
+ {
+  "name": "co.leafwright/leafwright",
+  "url": "https://leafwright.co/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-08",
+  "updated": "2026-09-08",
+  "state": "answered",
+  "detail": "leafwright 2025-06-18",
+  "ms": 1440
+ },
+ {
+  "name": "ai.kubit/mcp-server",
+  "url": "https://mcp.kubit.ai/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-04",
+  "updated": "2026-08-04",
+  "state": "auth_required",
+  "detail": "Authentication required",
+  "ms": 1149
+ },
+ {
+  "name": "app.nausika/mcp",
+  "url": "https://mcp.nausika.app",
+  "type": "streamable-http",
+  "published": "2026-05-19",
+  "updated": "2026-05-19",
+  "state": "answered",
+  "detail": "nausika-mcp-server 2025-06-18",
+  "ms": 726
+ },
+ {
+  "name": "ai.klodkot/gen",
+  "url": "https://mcp.klodkot.ai/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-14",
+  "updated": "2026-07-14",
+  "state": "auth_required",
+  "detail": "Invalid or missing API key / access token.",
+  "ms": 1349
+ },
+ {
+  "name": "com.jobkeepr/jobkeepr",
+  "url": "https://jobkeepr.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-04",
+  "updated": "2026-08-04",
+  "state": "auth_required",
+  "detail": "Authentication required",
+  "ms": 1023
+ },
+ {
+  "name": "com.breakerdesk/site",
+  "url": "https://breakerdesk.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-06",
+  "updated": "2026-09-06",
+  "state": "answered",
+  "detail": "BreakerDesk (breakerdesk.com) 2025-06-18",
+  "ms": 4470
+ },
+ {
+  "name": "com.screenshotink/mcp",
+  "url": "https://mcp.screenshotink.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-06-13",
+  "updated": "2026-06-13",
+  "state": "auth_required",
+  "detail": "Authentication required. Connect with OAuth, or send \"Authorization: Bearer sk_live_\u2026\" (free key at https://screenshotin",
+  "ms": 891
+ },
+ {
+  "name": "com.shotanvil.api/shotanvil",
+  "url": "https://api.shotanvil.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-01",
+  "updated": "2026-09-01",
+  "state": "protocol_error",
+  "detail": "payment_required",
+  "ms": 676
+ },
+ {
+  "name": "com.podkitapp/podkit",
+  "url": "https://podkitapp.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-14",
+  "updated": "2026-07-14",
+  "state": "auth_required",
+  "detail": "Unauthorized: send your PodKit API key in the x-api-key header.",
+  "ms": 546
+ },
+ {
+  "name": "com.lumethic/verify",
+  "url": "https://api.lumethic.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-06",
+  "updated": "2026-09-06",
+  "state": "auth_required",
+  "detail": "unauthorized",
+  "ms": 990
+ },
+ {
+  "name": "eu.voxs/voxhouses-pt",
+  "url": "https://www.voxhouses.pt/api/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-01",
+  "updated": "2026-09-01",
+  "state": "answered",
+  "detail": "voxhouses-pt 2024-11-05",
+  "ms": 899
+ },
+ {
+  "name": "io.branchly/branchly",
+  "url": "https://api.branchly.io/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-31",
+  "updated": "2026-08-31",
+  "state": "not_mcp",
+  "detail": "http 307, unparseable",
+  "ms": 1564
+ },
+ {
+  "name": "dev.nanotoll/nanotoll-mcp",
+  "url": "https://mcp.nanotoll.dev/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-21",
+  "updated": "2026-08-21",
+  "state": "answered",
+  "detail": "rmcp 2025-03-26",
+  "ms": 1867
+ },
+ {
+  "name": "ai.atlaso/mcp",
+  "url": "https://mcp.atlaso.ai/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-02",
+  "updated": "2026-08-02",
+  "state": "auth_required",
+  "detail": "invalid_token",
+  "ms": 587
+ },
+ {
+  "name": "ai.getvda/auth-token-mcp-traced-service",
+  "url": "https://auth-token-mcp-traced-service.getvda.ai/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-03",
+  "updated": "2026-09-03",
+  "state": "answered",
+  "detail": "auth-token-mcp-traced-service 2026-07-28",
+  "ms": 4572
+ },
+ {
+  "name": "fr.renoolab/mcp",
+  "url": "https://mcp.renoolab.fr/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-23",
+  "updated": "2026-08-23",
+  "state": "answered",
+  "detail": "renoolab-mcp 2025-06-18",
+  "ms": 527
+ },
+ {
+  "name": "com.wpwriter/wordpress",
+  "url": "https://mcp.wpwriter.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-06-21",
+  "updated": "2026-06-21",
+  "state": "not_mcp",
+  "detail": "http 401, unparseable",
+  "ms": 996
+ },
+ {
+  "name": "ai.toohardbasket/market",
+  "url": "https://toohardbasket.ai/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-31",
+  "updated": "2026-08-31",
+  "state": "answered",
+  "detail": "toohardbasket 2025-06-18",
+  "ms": 2392
+ },
+ {
+  "name": "io.github.Br0ski777/gas-oracle",
+  "url": "https://gas-oracle.api.klymax402.com/mcp",
+  "type": "sse",
+  "published": "2026-05-16",
+  "updated": "2026-05-16",
+  "state": "answered",
+  "detail": "gas-oracle 2024-11-05",
+  "ms": 837
+ },
+ {
+  "name": "io.github.AceDataCloud/mcp-suno",
+  "url": "https://suno.mcp.acedata.cloud/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-06",
+  "updated": "2026-09-06",
+  "state": "auth_required",
+  "detail": "invalid_token",
+  "ms": 1596
+ },
+ {
+  "name": "ai.scoreia/open-labyrinth",
+  "url": "https://scoreia.ai/open-labyrinth/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-23",
+  "updated": "2026-08-23",
+  "state": "answered",
+  "detail": "scoreia-server 2025-11-25",
+  "ms": 867
+ },
+ {
+  "name": "eu.nordicmcp/google-mail",
+  "url": "https://nordicmcp.eu/mcp/google-mail/{token}",
+  "type": "streamable-http",
+  "published": "2026-08-16",
+  "updated": "2026-08-16",
+  "state": "auth_required",
+  "detail": "Invalid or expired token",
+  "ms": 1122
+ },
+ {
+  "name": "ai.fodda/brand-intelligence",
+  "url": "https://mcp.fodda.ai/brand-intelligence",
+  "type": "streamable-http",
+  "published": "2026-08-23",
+  "updated": "2026-08-23",
+  "state": "auth_required",
+  "detail": "Authentication required. Connect via OAuth, or use your personal connection URL or API key from https://app.fodda.ai.",
+  "ms": 692
+ },
+ {
+  "name": "app.repopilot/repopilot",
+  "url": "https://repopilot.app/api/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-02",
+  "updated": "2026-08-02",
+  "state": "answered",
+  "detail": "repopilot 2025-06-18",
+  "ms": 458
+ },
+ {
+  "name": "ai.superfact/superfact",
+  "url": "https://superfact.ai/api/mcp",
+  "type": "streamable-http",
+  "published": "2026-06-02",
+  "updated": "2026-06-02",
+  "state": "auth_required",
+  "detail": "Unauthorized: connect this server via claude.ai's custom-connector flow (OAuth) or paste a static token from https://sup",
+  "ms": 2426
+ },
+ {
+  "name": "com.mcpscores/webhook-signature-fixture-lab",
+  "url": "https://mcp-factory.bowling-anthony.workers.dev/webhook-signature-fixture-lab/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-06",
+  "updated": "2026-09-06",
+  "state": "answered",
+  "detail": "com.mcpscores/webhook-signature-fixture-lab 2025-06-18",
+  "ms": 198
+ },
+ {
+  "name": "com.lillytechsystems/ai-school",
+  "url": "https://lillytechsystems.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-04",
+  "updated": "2026-09-04",
+  "state": "answered",
+  "detail": "ai-school 2025-06-18",
+  "ms": 1201
+ },
+ {
+  "name": "ai.smithery/hithereiamaliff-mcp-nextcloud",
+  "url": "https://server.smithery.ai/@hithereiamaliff/mcp-nextcloud/mcp",
+  "type": "streamable-http",
+  "published": "2025-09-11",
+  "updated": "2025-09-11",
+  "state": "auth_required",
+  "detail": "invalid_token",
+  "ms": 857
+ },
+ {
+  "name": "com.hasdata/tiktok",
+  "url": "https://mcp.hasdata.com/api/mcp?apis=tiktok",
+  "type": "streamable-http",
+  "published": "2026-09-09",
+  "updated": "2026-09-09",
+  "state": "auth_required",
+  "detail": "invalid_token",
+  "ms": 1256
+ },
+ {
+  "name": "guide.schoolleader/guide-registry",
+  "url": "https://schoolleader.guide/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-08",
+  "updated": "2026-09-08",
+  "state": "answered",
+  "detail": "bicycle-guide-registry 2025-06-18",
+  "ms": 791
+ },
+ {
+  "name": "com.onchaindiligence/compliance",
+  "url": "https://mcp.onchaindiligence.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-06-27",
+  "updated": "2026-06-27",
+  "state": "answered",
+  "detail": "mcp-typescript server on vercel 2025-06-18",
+  "ms": 515
+ },
+ {
+  "name": "com.thedailysmark/wrestling",
+  "url": "https://www.thedailysmark.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-16",
+  "updated": "2026-07-16",
+  "state": "answered",
+  "detail": "The Daily Smark 2025-06-18",
+  "ms": 1105
+ },
+ {
+  "name": "com.sherweb/platform",
+  "url": "https://mcp.sherweb.com",
+  "type": "streamable-http",
+  "published": "2026-09-02",
+  "updated": "2026-09-02",
+  "state": "not_mcp",
+  "detail": "http 401, unparseable",
+  "ms": 980
+ },
+ {
+  "name": "com.dnsmint/mcp",
+  "url": "https://dnsmint.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-08",
+  "updated": "2026-09-08",
+  "state": "auth_required",
+  "detail": "invalid_token",
+  "ms": 2055
+ },
+ {
+  "name": "com.mcpscores/agent-reliability-scores",
+  "url": "https://mcpfax-reliability.bowling-anthony.workers.dev/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-31",
+  "updated": "2026-08-31",
+  "state": "answered",
+  "detail": "com.mcpscores/agent-reliability-scores 2025-06-18",
+  "ms": 199
+ },
+ {
+  "name": "ai.inventoryhero/inventory-hero",
+  "url": "https://mcp.prod.inventoryhero.ai/mcp",
+  "type": "streamable-http",
+  "published": "2026-06-10",
+  "updated": "2026-06-10",
+  "state": "auth_required",
+  "detail": "missing_token",
+  "ms": 1134
+ },
+ {
+  "name": "ai.sleepwalker/sleepwalker",
+  "url": "https://mcp.sleepwalker.ai/mcp",
+  "type": "streamable-http",
+  "published": "2026-06-28",
+  "updated": "2026-06-28",
+  "state": "auth_required",
+  "detail": "Missing MCP bearer token",
+  "ms": 497
+ },
+ {
+  "name": "club.boringstuff/the-scribble-thing",
+  "url": "https://scribble.boringstuff.club/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-24",
+  "updated": "2026-08-24",
+  "state": "answered",
+  "detail": "the-scribble-thing 2025-06-18",
+  "ms": 776
+ },
+ {
+  "name": "com.californiacarquotes/insurance",
+  "url": "https://californiacarquotes.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-04",
+  "updated": "2026-09-04",
+  "state": "answered",
+  "detail": "California Insurance 2025-06-18",
+  "ms": 495
+ },
+ {
+  "name": "com.anglero/speaker",
+  "url": "https://anglero.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-10",
+  "updated": "2026-07-10",
+  "state": "answered",
+  "detail": "com.anglero/speaker 2025-11-25",
+  "ms": 3892
+ },
+ {
+  "name": "com.thenextgennexus/chinese-social-signals-mcp",
+  "url": "https://nexgendata--chinese-social-signals-mcp.apify.actor/mcp",
+  "type": "streamable-http",
+  "published": "2026-06-29",
+  "updated": "2026-06-29",
+  "state": "auth_required",
+  "detail": "This is a standby Actor. To use it, you need to pass your Apify API token. For details, see https://docs.apify.com/platf",
+  "ms": 1009
+ },
+ {
+  "name": "com.comparehvacsoftware/site",
+  "url": "https://comparehvacsoftware.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-06",
+  "updated": "2026-09-06",
+  "state": "answered",
+  "detail": "Compare HVAC Software (comparehvacsoftware.com) 2025-06-18",
+  "ms": 6743
+ },
+ {
+  "name": "io.github.CSOAI-ORG/agent-delegation-mcp",
+  "url": "https://api.meok.ai/v1/a2a/delegation",
+  "type": "streamable-http",
+  "published": "2026-06-30",
+  "updated": "2026-06-30",
+  "state": "unreachable",
+  "detail": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+  "ms": 4
+ },
+ {
+  "name": "app.zooza/mcp-server",
+  "url": "https://mcp.zooza.app/mcp",
+  "type": "streamable-http",
+  "published": "2026-06-10",
+  "updated": "2026-06-10",
+  "state": "not_mcp",
+  "detail": "http 200, unparseable",
+  "ms": 1619
+ },
+ {
+  "name": "com.hasdata/hasdata",
+  "url": "https://mcp.hasdata.com/api/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-24",
+  "updated": "2026-08-24",
+  "state": "auth_required",
+  "detail": "invalid_token",
+  "ms": 1170
+ },
+ {
+  "name": "app.sharemypage/sharemypage",
+  "url": "https://sharemypage.app/api/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-08",
+  "updated": "2026-07-08",
+  "state": "auth_required",
+  "detail": "invalid_token",
+  "ms": 1171
+ },
+ {
+  "name": "com.agentrux/agentrux",
+  "url": "https://api.agentrux.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-09",
+  "updated": "2026-09-09",
+  "state": "not_mcp",
+  "detail": "http 401",
+  "ms": 976
+ },
+ {
+  "name": "com.mographr/motion-tools",
+  "url": "https://mcp.mographr.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-04",
+  "updated": "2026-08-04",
+  "state": "answered",
+  "detail": "mographr-tools 2025-06-18",
+  "ms": 1301
+ },
+ {
+  "name": "com.olyport/ejscreen",
+  "url": "https://mcp.olyport.com/ejscreen/mcp",
+  "type": "streamable-http",
+  "published": "2026-04-02",
+  "updated": "2026-04-02",
+  "state": "answered",
+  "detail": "epa-ejscreen 2025-06-18",
+  "ms": 1191
+ },
+ {
+  "name": "hu.eumoney/eu-money",
+  "url": "https://eumoney.hu/chatgpt/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-23",
+  "updated": "2026-08-23",
+  "state": "answered",
+  "detail": "EU Money 2025-06-18",
+  "ms": 1002
+ },
+ {
+  "name": "br.com.wikijuridica/acervo-juridico",
+  "url": "https://wikijuridica.com.br/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-08",
+  "updated": "2026-09-08",
+  "state": "answered",
+  "detail": "wikijuridica 2025-06-18",
+  "ms": 1125
+ },
+ {
+  "name": "com.thenextgennexus/healthcare-fda-intelligence-mcp",
+  "url": "https://nexgendata--healthcare-fda-intelligence-mcp.apify.actor/mcp",
+  "type": "streamable-http",
+  "published": "2026-06-29",
+  "updated": "2026-06-29",
+  "state": "protocol_error",
+  "detail": "Actor or Actor task was not found or access denied",
+  "ms": 1151
+ },
+ {
+  "name": "com.blitzreels/blitzreels",
+  "url": "https://www.blitzreels.com/api/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-05",
+  "updated": "2026-08-05",
+  "state": "answered",
+  "detail": "blitzreels 2025-06-18",
+  "ms": 952
+ },
+ {
+  "name": "co.contraption/mcp",
+  "url": "https://mcp.contraption.co/",
+  "type": "sse",
+  "published": "2025-10-02",
+  "updated": "2025-10-02",
+  "state": "not_mcp",
+  "detail": "http 404, unparseable",
+  "ms": 1166
+ },
+ {
+  "name": "com.ppn-hub/ppn-hub",
+  "url": "https://mcp.ppn-hub.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-03",
+  "updated": "2026-08-03",
+  "state": "answered",
+  "detail": "ppn-mcp-gateway 2025-06-18",
+  "ms": 559
+ },
+ {
+  "name": "com.lifescored/mcp",
+  "url": "https://lifescored.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-06-17",
+  "updated": "2026-06-17",
+  "state": "answered",
+  "detail": "life-scored 2025-06-18",
+  "ms": 430
+ },
+ {
+  "name": "cc.ticktape/mcp",
+  "url": "https://ticktape.cc/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-15",
+  "updated": "2026-07-15",
+  "state": "answered",
+  "detail": "ticktape 2025-06-18",
+  "ms": 541
+ },
+ {
+  "name": "com.afdinstitute/afd-knowledge",
+  "url": "https://mcp.afdinstitute.com/api/mcp",
+  "type": "streamable-http",
+  "published": "2026-06-28",
+  "updated": "2026-06-28",
+  "state": "auth_required",
+  "detail": "Authentication required. Connect via OAuth and sign in with your AFD Institute account (your client discovers the OAuth ",
+  "ms": 1239
+ },
+ {
+  "name": "com.santosautomation/site-audit",
+  "url": "https://api.santosautomation.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-28",
+  "updated": "2026-07-28",
+  "state": "protocol_error",
+  "detail": "The deployment is currently unavailable",
+  "ms": 644
+ },
+ {
+  "name": "dev.depscope/mcp",
+  "url": "https://mcp.depscope.dev/mcp",
+  "type": "streamable-http",
+  "published": "2026-05-05",
+  "updated": "2026-05-05",
+  "state": "answered",
+  "detail": "depscope 2025-06-18",
+  "ms": 687
+ },
+ {
+  "name": "com.zylalabs/api-hub",
+  "url": "https://mcp.zylalabs.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-08",
+  "updated": "2026-07-08",
+  "state": "answered",
+  "detail": "zyla-api-hub 2024-11-05",
+  "ms": 101
+ },
+ {
+  "name": "com.dplooy/hosting",
+  "url": "https://api.dplooy.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-04",
+  "updated": "2026-09-04",
+  "state": "auth_required",
+  "detail": "invalid_token",
+  "ms": 886
+ },
+ {
+  "name": "co.vantaj/mcp-server",
+  "url": "https://api.vantaj.co/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-11",
+  "updated": "2026-07-11",
+  "state": "answered",
+  "detail": "vantaj 2025-06-18",
+  "ms": 361
+ },
+ {
+  "name": "at.memebo/memeboat-mcp",
+  "url": "https://memebo.at/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-06",
+  "updated": "2026-07-06",
+  "state": "protocol_error",
+  "detail": "Internal server error",
+  "ms": 895
+ },
+ {
+  "name": "ai.synlake/synlake",
+  "url": "https://api.synlake.ai/api/mcp",
+  "type": "streamable-http",
+  "published": "2026-05-27",
+  "updated": "2026-05-27",
+  "state": "answered",
+  "detail": "synlake 2025-06-18",
+  "ms": 935
+ },
+ {
+  "name": "com.metricduck/financial-analysis",
+  "url": "https://mcp.metricduck.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-03-18",
+  "updated": "2026-03-18",
+  "state": "answered",
+  "detail": "metricduck 2025-06-18",
+  "ms": 357
+ },
+ {
+  "name": "ai.anzenna/anzenna",
+  "url": "https://mcp.anzenna.ai/sse",
+  "type": "sse",
+  "published": "2026-02-21",
+  "updated": "2026-02-21",
+  "state": "not_mcp",
+  "detail": "http 401, unparseable",
+  "ms": 434
+ },
+ {
+  "name": "com.factanker/factanker",
+  "url": "https://factanker.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-02",
+  "updated": "2026-09-02",
+  "state": "answered",
+  "detail": "factanker 2025-06-18",
+  "ms": 831
+ },
+ {
+  "name": "com.mcpbundles/uk-constituencies",
+  "url": "https://mcp.mcpbundles.com/bundle/uk-constituencies/",
+  "type": "streamable-http",
+  "published": "2026-04-11",
+  "updated": "2026-04-11",
+  "state": "auth_required",
+  "detail": "unauthorized",
+  "ms": 908
+ },
+ {
+  "name": "app.cnvs/whiteboard",
+  "url": "https://cnvs.app/mcp",
+  "type": "streamable-http",
+  "published": "2026-06-15",
+  "updated": "2026-06-15",
+  "state": "answered",
+  "detail": "cnvs-mcp 2025-06-18",
+  "ms": 405
+ },
+ {
+  "name": "com.traderhc/agenthc",
+  "url": "https://api.traderhc.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-02-13",
+  "updated": "2026-02-13",
+  "state": "answered",
+  "detail": "agenthc 2025-03-26",
+  "ms": 1486
+ },
+ {
+  "name": "io.github.AgentMindCloud/agent-search-pro",
+  "url": "https://aggregator-beta.vercel.app/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-30",
+  "updated": "2026-08-30",
+  "state": "answered",
+  "detail": "agent-search-pro 2025-06-18",
+  "ms": 550
+ },
+ {
+  "name": "dev.weldra/parley",
+  "url": "https://parley.weldra.dev/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-20",
+  "updated": "2026-08-20",
+  "state": "auth_required",
+  "detail": "invalid or missing token",
+  "ms": 493
+ },
+ {
+  "name": "com.tryperspect/perspect",
+  "url": "https://perspect-ai-backend.onrender.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-08",
+  "updated": "2026-09-08",
+  "state": "answered",
+  "detail": "perspect-ai 2025-06-18",
+  "ms": 342
+ },
+ {
+  "name": "cz.tvojelajky/agent-commerce",
+  "url": "https://tvojelajky.cz/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-06",
+  "updated": "2026-09-06",
+  "state": "answered",
+  "detail": "tvojelajky 2025-06-18",
+  "ms": 1757
+ },
+ {
+  "name": "com.clauxel.browserspendguard/browserspendguard-mcp",
+  "url": "https://browserspendguard.clauxel.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-05-19",
+  "updated": "2026-05-19",
+  "state": "unreachable",
+  "detail": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+  "ms": 221
+ },
+ {
+  "name": "io.famulor/famulor-mcp",
+  "url": "https://app.famulor.io/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-23",
+  "updated": "2026-08-23",
+  "state": "auth_required",
+  "detail": "Unauthorized: a valid Bearer token is required (OAuth access token or API key).",
+  "ms": 368
+ },
+ {
+  "name": "io.github.CSOAI-ORG/mcp-spec-compliance-mcp",
+  "url": "https://api.meok.ai/v1/dev/mcp-spec-compliance",
+  "type": "streamable-http",
+  "published": "2026-08-19",
+  "updated": "2026-08-19",
+  "state": "unreachable",
+  "detail": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+  "ms": 5
+ },
+ {
+  "name": "io.github.Abracadabrastartup/deusproof-mcp",
+  "url": "https://deusproof.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-27",
+  "updated": "2026-08-27",
+  "state": "answered",
+  "detail": "deusproof 2025-06-18",
+  "ms": 991
+ },
+ {
+  "name": "ai.axonagentic/neuroautomata",
+  "url": "https://mcp.neuroautomata.axonagentic.ai/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-01",
+  "updated": "2026-07-01",
+  "state": "auth_required",
+  "detail": "invalid_token",
+  "ms": 1193
+ },
+ {
+  "name": "com.timzinin.api/compliance-tools",
+  "url": "https://api.timzinin.com/mcp/compliance-tools",
+  "type": "streamable-http",
+  "published": "2026-08-01",
+  "updated": "2026-08-01",
+  "state": "answered",
+  "detail": "zinin-m2m-hub-compliance-tools 2025-06-18",
+  "ms": 923
+ },
+ {
+  "name": "com.examova/mcp",
+  "url": "https://examova.com/api/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-04",
+  "updated": "2026-07-04",
+  "state": "answered",
+  "detail": "examova 2025-06-18",
+  "ms": 937
+ },
+ {
+  "name": "com.fitnito/fitnito",
+  "url": "https://mcp.fitnito.com/",
+  "type": "streamable-http",
+  "published": "2026-06-23",
+  "updated": "2026-06-23",
+  "state": "auth_required",
+  "detail": "Unauthorized: missing or invalid credentials.",
+  "ms": 527
+ },
+ {
+  "name": "com.agentegalicia/public-discovery",
+  "url": "https://agentegalicia.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-12",
+  "updated": "2026-07-12",
+  "state": "answered",
+  "detail": "agente-galicia-public-discovery 2025-06-18",
+  "ms": 367
+ },
+ {
+  "name": "com.skopik/mcp",
+  "url": "https://api.skopik.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-07",
+  "updated": "2026-07-07",
+  "state": "not_mcp",
+  "detail": "http 404, unparseable",
+  "ms": 1474
+ },
+ {
+  "name": "com.multyplylabs/sec-fundamentals",
+  "url": "https://sec.multyplylabs.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-18",
+  "updated": "2026-07-18",
+  "state": "answered",
+  "detail": "sec-fundamentals 2025-06-18",
+  "ms": 1318
+ },
+ {
+  "name": "com.mhsbloom/neutral-skincare-reference",
+  "url": "https://europe-west3-mhs-bloom.cloudfunctions.net/bloomMcp",
+  "type": "streamable-http",
+  "published": "2026-07-17",
+  "updated": "2026-07-17",
+  "state": "answered",
+  "detail": "mhs-bloom 2025-06-18",
+  "ms": 487
+ },
+ {
+  "name": "ai.plori/plori",
+  "url": "https://api.plori.ai/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-08",
+  "updated": "2026-09-08",
+  "state": "not_mcp",
+  "detail": "http 401",
+  "ms": 861
+ },
+ {
+  "name": "ai.getvda/structured-output-mcp-agent-cryptography",
+  "url": "https://structured-output-mcp-agent-cryptography.getvda.ai/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-03",
+  "updated": "2026-09-03",
+  "state": "answered",
+  "detail": "structured-output-mcp-agent-cryptography 2026-07-28",
+  "ms": 542
+ },
+ {
+  "name": "com.icejuicetrading/ice-juice-trading",
+  "url": "https://mcp.icejuicetrading.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-24",
+  "updated": "2026-08-24",
+  "state": "auth_required",
+  "detail": "missing bearer token",
+  "ms": 1516
+ },
+ {
+  "name": "com.maltaresidencycost/site",
+  "url": "https://maltaresidencycost.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-06",
+  "updated": "2026-09-06",
+  "state": "answered",
+  "detail": "Malta Residency Cost (maltaresidencycost.com) 2025-06-18",
+  "ms": 3030
+ },
+ {
+  "name": "app.wishpool/mexico-invoice-mcp",
+  "url": "https://inv-mx.wishpool.app/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-10",
+  "updated": "2026-07-10",
+  "state": "unreachable",
+  "detail": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+  "ms": 71
+ },
+ {
+  "name": "com.alleskralle/jobs",
+  "url": "https://mcp.alleskralle.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-06-03",
+  "updated": "2026-06-03",
+  "state": "answered",
+  "detail": "alleskralle-jobs 2025-11-25",
+  "ms": 1482
+ },
+ {
+  "name": "ai.smithery/kirbah-mcp-youtube",
+  "url": "https://server.smithery.ai/@kirbah/mcp-youtube/mcp",
+  "type": "streamable-http",
+  "published": "2025-10-04",
+  "updated": "2025-10-04",
+  "state": "not_mcp",
+  "detail": "http 404, unparseable",
+  "ms": 602
+ },
+ {
+  "name": "com.stagenth/pdf-kit",
+  "url": "https://stagenth.com/mcp/pdf-kit/",
+  "type": "streamable-http",
+  "published": "2026-07-05",
+  "updated": "2026-07-05",
+  "state": "unreachable",
+  "detail": "URLError: <urlopen error _ssl.c:1112: The handshake operation timed out>",
+  "ms": 13990
+ },
+ {
+  "name": "ar.com.consignatarias/cattle-market",
+  "url": "https://www.consignatarias.com.ar/api/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-10",
+  "updated": "2026-08-10",
+  "state": "answered",
+  "detail": "consignatarias 2025-06-18",
+  "ms": 1062
+ },
+ {
+  "name": "cc.orionlabsone/orion-agent-kit",
+  "url": "https://orionlabsone.cc/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-12",
+  "updated": "2026-07-12",
+  "state": "answered",
+  "detail": "orion-celestia-intel 2025-06-18",
+  "ms": 1138
+ },
+ {
+  "name": "com.ainetcafe/netcafe-translate",
+  "url": "https://ainetcafe.com/mcp/translate?s=registry",
+  "type": "streamable-http",
+  "published": "2026-08-13",
+  "updated": "2026-08-13",
+  "state": "unreachable",
+  "detail": "URLError: <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>",
+  "ms": 237
+ },
+ {
+  "name": "com.prediohq/catastro",
+  "url": "https://api.prediohq.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-02",
+  "updated": "2026-07-02",
+  "state": "answered",
+  "detail": "predio 2025-06-18",
+  "ms": 794
+ },
+ {
+  "name": "ai.smithery/afgong-sqlite-mcp-server",
+  "url": "https://server.smithery.ai/@afgong/sqlite-mcp-server/mcp",
+  "type": "streamable-http",
+  "published": "2025-10-02",
+  "updated": "2025-10-02",
+  "state": "not_mcp",
+  "detail": "http 404, unparseable",
+  "ms": 581
+ },
+ {
+  "name": "app.hvacbuilder/hvac-builder",
+  "url": "https://hvacbuilder.app/api/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-02",
+  "updated": "2026-09-02",
+  "state": "auth_required",
+  "detail": "MCP requires authorization: add this URL as a custom connector (the OAuth sign-in runs in your browser), or create an AP",
+  "ms": 869
+ },
+ {
+  "name": "com.designbycurio/curio",
+  "url": "https://mcp.designbycurio.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-06-10",
+  "updated": "2026-06-10",
+  "state": "auth_required",
+  "detail": "invalid_token",
+  "ms": 283
+ },
+ {
+  "name": "app.wishpool/egypt-payments-mcp",
+  "url": "https://mcp-eg.wishpool.app/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-09",
+  "updated": "2026-07-09",
+  "state": "unreachable",
+  "detail": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+  "ms": 20
+ },
+ {
+  "name": "com.munispot/municipal-data",
+  "url": "https://www.munispot.com/api/mcp",
+  "type": "streamable-http",
+  "published": "2026-04-01",
+  "updated": "2026-04-01",
+  "state": "auth_required",
+  "detail": "Missing API key. Provide X-API-Key header or Authorization: Bearer <key>",
+  "ms": 1078
+ },
+ {
+  "name": "com.lockally/email",
+  "url": "https://mcp.lockally.com/",
+  "type": "streamable-http",
+  "published": "2026-08-28",
+  "updated": "2026-08-28",
+  "state": "auth_required",
+  "detail": "missing bearer token \u2014 authenticate via OAuth or use your lockally API key (lk_live_...)",
+  "ms": 854
+ },
+ {
+  "name": "dev.llmlatency/llm-latency-tracker",
+  "url": "https://llmlatency.dev/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-16",
+  "updated": "2026-08-16",
+  "state": "answered",
+  "detail": "llmlatency-mcp 2025-06-18",
+  "ms": 171
+ },
+ {
+  "name": "ai.thesingulariti/graviti",
+  "url": "https://graviti.thesingulariti.ai/api/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-26",
+  "updated": "2026-08-26",
+  "state": "answered",
+  "detail": "graviti 2025-06-18",
+  "ms": 862
+ },
+ {
+  "name": "com.mcpbundles/uk-petitions",
+  "url": "https://mcp.mcpbundles.com/bundle/uk-petitions/",
+  "type": "streamable-http",
+  "published": "2026-04-11",
+  "updated": "2026-04-11",
+  "state": "auth_required",
+  "detail": "unauthorized",
+  "ms": 670
+ },
+ {
+  "name": "al.flytravel/travel-prices",
+  "url": "https://flytravel.al/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-31",
+  "updated": "2026-08-31",
+  "state": "answered",
+  "detail": "flytravel-albania 2025-06-18",
+  "ms": 778
+ },
+ {
+  "name": "dev.typeship/typeship",
+  "url": "https://typeship.dev/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-02",
+  "updated": "2026-09-02",
+  "state": "auth_required",
+  "detail": "Authorization required.",
+  "ms": 1002
+ },
+ {
+  "name": "app.wishpool/luxembourg-payments-mcp",
+  "url": "https://mcp-lu.wishpool.app/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-09",
+  "updated": "2026-07-09",
+  "state": "unreachable",
+  "detail": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+  "ms": 25
+ },
+ {
+  "name": "com.gethumandesign.www/mcp",
+  "url": "https://api.gethumandesign.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-06-12",
+  "updated": "2026-06-12",
+  "state": "auth_required",
+  "detail": "session_expired",
+  "ms": 1255
+ },
+ {
+  "name": "io.github.Br0ski777/web-scraper",
+  "url": "https://web-scraper.api.klymax402.com/mcp",
+  "type": "sse",
+  "published": "2026-05-16",
+  "updated": "2026-05-16",
+  "state": "answered",
+  "detail": "web-scraper 2024-11-05",
+  "ms": 835
+ },
+ {
+  "name": "io.github.AlvisoOculus/optionsahoy-mcp",
+  "url": "https://optionsahoy.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-07",
+  "updated": "2026-09-07",
+  "state": "answered",
+  "detail": "OptionsAhoy 2024-11-05",
+  "ms": 370
+ },
+ {
+  "name": "com.llmotions.farm/opus-4-8-agent",
+  "url": "https://farm.llmotions.com/mcp/agents/opus-4-8-agent",
+  "type": "streamable-http",
+  "published": "2026-07-16",
+  "updated": "2026-07-16",
+  "state": "answered",
+  "detail": "com.llmotions.farm/opus-4-8-agent 2025-06-18",
+  "ms": 1200
+ },
+ {
+  "name": "dev.workers.perch-app.flock/flock",
+  "url": "https://flock.perch-app.workers.dev/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-08",
+  "updated": "2026-08-08",
+  "state": "not_mcp",
+  "detail": "http 404",
+  "ms": 84
+ },
+ {
+  "name": "com.vaadin/docs-mcp",
+  "url": "https://mcp.vaadin.com/docs/",
+  "type": "streamable-http",
+  "published": "2025-10-29",
+  "updated": "2025-10-29",
+  "state": "answered",
+  "detail": "vaadin-mcp 2025-06-18",
+  "ms": 731
+ },
+ {
+  "name": "com.donotact/donotact",
+  "url": "https://donotact.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-06-28",
+  "updated": "2026-06-28",
+  "state": "unreachable",
+  "detail": "URLError: <urlopen error [Errno 61] Connection refused>",
+  "ms": 234
+ },
+ {
+  "name": "io.github.AdrianStauffer/copilot-studio-friction-index",
+  "url": "https://pcghrrzwqshejvifoxjq.supabase.co/functions/v1/friction-mcp",
+  "type": "streamable-http",
+  "published": "2026-07-13",
+  "updated": "2026-07-13",
+  "state": "answered",
+  "detail": "copilot-studio-friction-index 2025-06-18",
+  "ms": 414
+ },
+ {
+  "name": "com.budgeyapp/budgey",
+  "url": "https://www.budgeyapp.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-07",
+  "updated": "2026-08-07",
+  "state": "auth_required",
+  "detail": "unauthorized",
+  "ms": 1126
+ },
+ {
+  "name": "com.invokera/world-time",
+  "url": "https://invokera.com/r/world-time",
+  "type": "streamable-http",
+  "published": "2026-08-04",
+  "updated": "2026-08-04",
+  "state": "answered",
+  "detail": "invokera-world-time 2025-06-18",
+  "ms": 679
+ },
+ {
+  "name": "cool.cron/croncool",
+  "url": "https://mcp.cron.cool/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-14",
+  "updated": "2026-08-14",
+  "state": "auth_required",
+  "detail": "Unauthorized",
+  "ms": 2096
+ },
+ {
+  "name": "ai.mitosislabs/mitosis",
+  "url": "https://mitosislabs.ai/api/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-18",
+  "updated": "2026-07-18",
+  "state": "answered",
+  "detail": "mitosis 2025-06-18",
+  "ms": 678
+ },
+ {
+  "name": "com.nameshift/marketplace",
+  "url": "https://api.nameshift.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-20",
+  "updated": "2026-08-20",
+  "state": "protocol_error",
+  "detail": "Not Found",
+  "ms": 683
+ },
+ {
+  "name": "ai.vruum/mcp",
+  "url": "https://api.vruum.ai/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-07",
+  "updated": "2026-09-07",
+  "state": "auth_required",
+  "detail": "invalid_token",
+  "ms": 762
+ },
+ {
+  "name": "eu.ansvar/swedish-law",
+  "url": "https://gateway.ansvar.eu/se/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-13",
+  "updated": "2026-07-13",
+  "state": "auth_required",
+  "detail": "invalid_token",
+  "ms": 309
+ },
+ {
+  "name": "com.docfork/docfork-mcp",
+  "url": "https://mcp.docfork.com",
+  "type": "streamable-http",
+  "published": "2026-01-14",
+  "updated": "2026-01-14",
+  "state": "unreachable",
+  "detail": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+  "ms": 105
+ },
+ {
+  "name": "com.koongo/mcp-server",
+  "url": "https://mcp.koongo.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-26",
+  "updated": "2026-08-26",
+  "state": "auth_required",
+  "detail": "invalid_token",
+  "ms": 1739
+ },
+ {
+  "name": "com.jojapi/linkedin",
+  "url": "https://mcp.jojapi.com/linkedin",
+  "type": "streamable-http",
+  "published": "2026-08-19",
+  "updated": "2026-08-19",
+  "state": "answered",
+  "detail": "jojapi-linkedin 2025-06-18",
+  "ms": 1111
+ },
+ {
+  "name": "com.alphanume/datasets",
+  "url": "https://mcp.alphanume.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-06",
+  "updated": "2026-09-06",
+  "state": "not_mcp",
+  "detail": "http 401, unparseable",
+  "ms": 1398
+ },
+ {
+  "name": "com.revelica/revelica",
+  "url": "https://api.revelica.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-06-02",
+  "updated": "2026-06-02",
+  "state": "auth_required",
+  "detail": "invalid_token",
+  "ms": 1090
+ },
+ {
+  "name": "ai.tekboss/assessment",
+  "url": "https://tekboss.ai/mcp/assessment",
+  "type": "streamable-http",
+  "published": "2026-07-22",
+  "updated": "2026-07-22",
+  "state": "answered",
+  "detail": "TEK BOSS Small Business AI Strategy Assessment 2025-06-18",
+  "ms": 850
+ },
+ {
+  "name": "ai.upriver/upriver",
+  "url": "https://mcp.upriver.ai/mcp",
+  "type": "streamable-http",
+  "published": "2026-06-26",
+  "updated": "2026-06-26",
+  "state": "not_mcp",
+  "detail": "http 401, unparseable",
+  "ms": 2036
+ },
+ {
+  "name": "com.theoutdoorsapp/outdoors",
+  "url": "https://theoutdoorsapp.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-20",
+  "updated": "2026-07-20",
+  "state": "answered",
+  "detail": "Outdoors MCP 2025-06-18",
+  "ms": 1695
+ },
+ {
+  "name": "io.github.Br0ski777/airdrop-checker",
+  "url": "https://airdrop-checker.api.klymax402.com/mcp",
+  "type": "sse",
+  "published": "2026-05-16",
+  "updated": "2026-05-16",
+  "state": "answered",
+  "detail": "airdrop-checker 2024-11-05",
+  "ms": 769
+ },
+ {
+  "name": "ai.postfleet/postfleet",
+  "url": "https://api.postfleet.ai/api/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-02",
+  "updated": "2026-09-02",
+  "state": "auth_required",
+  "detail": "missing bearer token",
+  "ms": 1379
+ },
+ {
+  "name": "ai.getvda/mysql-redis-compose-generator",
+  "url": "https://mysql-redis-compose-generator.getvda.ai/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-03",
+  "updated": "2026-09-03",
+  "state": "answered",
+  "detail": "mysql-redis-c736ae 2026-07-28",
+  "ms": 524
+ },
+ {
+  "name": "ai.smithery/mfukushim-map-traveler-mcp",
+  "url": "https://server.smithery.ai/@mfukushim/map-traveler-mcp/mcp",
+  "type": "streamable-http",
+  "published": "2025-09-29",
+  "updated": "2025-09-29",
+  "state": "not_mcp",
+  "detail": "http 404, unparseable",
+  "ms": 592
+ },
+ {
+  "name": "com.jotform/mcp",
+  "url": "https://mcp.jotform.com/",
+  "type": "streamable-http",
+  "published": "2025-10-02",
+  "updated": "2025-10-02",
+  "state": "not_mcp",
+  "detail": "http 401",
+  "ms": 720
+ },
+ {
+  "name": "app.wishpool/nigeria-payments-mcp",
+  "url": "https://mcp-ng.wishpool.app/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-08",
+  "updated": "2026-07-08",
+  "state": "unreachable",
+  "detail": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+  "ms": 32
+ },
+ {
+  "name": "com.affiliaterail/affiliaterail",
+  "url": "https://mcp.affiliaterail.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-04",
+  "updated": "2026-09-04",
+  "state": "auth_required",
+  "detail": "invalid_token",
+  "ms": 730
+ },
+ {
+  "name": "dev.stackresolve/stackresolve",
+  "url": "https://mcp.stackresolve.dev/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-31",
+  "updated": "2026-08-31",
+  "state": "answered",
+  "detail": "stackresolve 2025-06-18",
+  "ms": 720
+ },
+ {
+  "name": "dk.herbertkokholm.citecaddy/cite-caddy",
+  "url": "https://citecaddy.herbertkokholm.dk/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-04",
+  "updated": "2026-09-04",
+  "state": "auth_required",
+  "detail": "invalid_token",
+  "ms": 700
+ },
+ {
+  "name": "com.nalpeiron.docs/mcp",
+  "url": "https://docs.nalpeiron.com/~gitbook/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-08",
+  "updated": "2026-09-08",
+  "state": "answered",
+  "detail": "mcp-typescript server on vercel 2025-06-18",
+  "ms": 937
+ },
+ {
+  "name": "com.evaboot/evaboot",
+  "url": "https://mcp.evaboot.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-01",
+  "updated": "2026-09-01",
+  "state": "not_mcp",
+  "detail": "http 401, unparseable",
+  "ms": 1247
+ },
+ {
+  "name": "com.seoapi/ccbot",
+  "url": "https://ccbot.seoapi.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-15",
+  "updated": "2026-07-15",
+  "state": "answered",
+  "detail": "ccbot 2025-06-18",
+  "ms": 102
+ },
+ {
+  "name": "com.run402/mcp",
+  "url": "https://mcp.run402.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-31",
+  "updated": "2026-07-31",
+  "state": "answered",
+  "detail": "run402-remote 2025-06-18",
+  "ms": 1636
+ },
+ {
+  "name": "dev.autonomyforge.pressuredesk/pressuredesk",
+  "url": "https://pressuredesk.autonomyforge.dev/mcp/http",
+  "type": "streamable-http",
+  "published": "2026-05-20",
+  "updated": "2026-05-20",
+  "state": "unreachable",
+  "detail": "URLError: <urlopen error [Errno 61] Connection refused>",
+  "ms": 430
+ },
+ {
+  "name": "in.calmloop/tasks",
+  "url": "https://calmloop.in/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-02",
+  "updated": "2026-08-02",
+  "state": "not_mcp",
+  "detail": "http 401, unparseable",
+  "ms": 298
+ },
+ {
+  "name": "app.railway.up.airy-enthusiasm-production/ai-commerce",
+  "url": "https://airy-enthusiasm-production.up.railway.app/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-20",
+  "updated": "2026-07-20",
+  "state": "answered",
+  "detail": "ai-commerce 2025-06-18",
+  "ms": 701
+ },
+ {
+  "name": "com.blixtworks.www/tools",
+  "url": "https://www.blixtworks.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-31",
+  "updated": "2026-07-31",
+  "state": "answered",
+  "detail": "blixtworks 2025-06-18",
+  "ms": 1345
+ },
+ {
+  "name": "com.employeedeskhq/site",
+  "url": "https://employeedeskhq.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-06",
+  "updated": "2026-09-06",
+  "state": "answered",
+  "detail": "EmployeeDeskHQ (employeedeskhq.com) 2025-06-18",
+  "ms": 2999
+ },
+ {
+  "name": "com.agishub/mcp",
+  "url": "https://api.agishub.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-07",
+  "updated": "2026-09-07",
+  "state": "answered",
+  "detail": "agishub 2025-06-18",
+  "ms": 12992
+ },
+ {
+  "name": "com.smartledmessenger/afficheur",
+  "url": "https://www.smartledmessenger.com/mcp?key={cle}",
+  "type": "streamable-http",
+  "published": "2026-08-06",
+  "updated": "2026-08-06",
+  "state": "answered",
+  "detail": "smart-led-messenger 2025-06-18",
+  "ms": 1044
+ },
+ {
+  "name": "ai.fastmetal/fastmetal",
+  "url": "https://mcp.fastmetal.ai/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-30",
+  "updated": "2026-08-30",
+  "state": "auth_required",
+  "detail": "unauthorized",
+  "ms": 580
+ },
+ {
+  "name": "bzh.mana/mana",
+  "url": "https://mana.bzh/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-31",
+  "updated": "2026-08-31",
+  "state": "answered",
+  "detail": "mana 2025-06-18",
+  "ms": 1322
+ },
+ {
+  "name": "com.jojapi/domain-age-pro",
+  "url": "https://mcp.jojapi.com/domain-age-pro",
+  "type": "streamable-http",
+  "published": "2026-08-19",
+  "updated": "2026-08-19",
+  "state": "answered",
+  "detail": "jojapi-domain-age-pro 2025-06-18",
+  "ms": 318
+ },
+ {
+  "name": "ca.veilpoint/opportunity-exchange",
+  "url": "https://veilpoint.ca/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-27",
+  "updated": "2026-07-27",
+  "state": "answered",
+  "detail": "opportunity-exchange 2025-06-18",
+  "ms": 591
+ },
+ {
+  "name": "io.github.Br0ski777/solana-pools",
+  "url": "https://solana-pools.api.klymax402.com/mcp",
+  "type": "sse",
+  "published": "2026-05-16",
+  "updated": "2026-05-16",
+  "state": "answered",
+  "detail": "solana-pools 2024-11-05",
+  "ms": 815
+ },
+ {
+  "name": "com.gotcashback/gotcashback",
+  "url": "https://mcp.gotcashback.com",
+  "type": "streamable-http",
+  "published": "2026-09-04",
+  "updated": "2026-09-04",
+  "state": "answered",
+  "detail": "gotcashback 2025-06-18",
+  "ms": 1372
+ },
+ {
+  "name": "io.changenow/crypto-swap",
+  "url": "https://mcp.changenow.io/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-01",
+  "updated": "2026-09-01",
+  "state": "answered",
+  "detail": "chn-mcp-server 2025-06-18",
+  "ms": 750
+ },
+ {
+  "name": "com.exittaxestimator/site",
+  "url": "https://exittaxestimator.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-06",
+  "updated": "2026-09-06",
+  "state": "answered",
+  "detail": "Exit Tax Estimator (exittaxestimator.com) 2025-06-18",
+  "ms": 3159
+ },
+ {
+  "name": "app.offendersearch/offendersearch",
+  "url": "https://mcp.offendersearch.app/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-30",
+  "updated": "2026-08-30",
+  "state": "answered",
+  "detail": "offendersearch 2025-06-18",
+  "ms": 580
+ },
+ {
+  "name": "id.getrun/getrun",
+  "url": "https://run.getcore.id/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-07",
+  "updated": "2026-09-07",
+  "state": "answered",
+  "detail": "getrun 2025-06-18",
+  "ms": 421
+ },
+ {
+  "name": "com.coshhvo/site",
+  "url": "https://coshhvo.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-06",
+  "updated": "2026-09-06",
+  "state": "answered",
+  "detail": "Coshhvo (coshhvo.com) 2025-06-18",
+  "ms": 3147
+ },
+ {
+  "name": "ai.epinu/epinu",
+  "url": "https://api.epinu.ai/api/agent/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-14",
+  "updated": "2026-08-14",
+  "state": "answered",
+  "detail": "epinu-agent-api 2025-06-18",
+  "ms": 1944
+ },
+ {
+  "name": "ai.limitguard.api/trust-intelligence",
+  "url": "https://api.limitguard.ai/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-08",
+  "updated": "2026-09-08",
+  "state": "answered",
+  "detail": "limitguard 2025-06-18",
+  "ms": 1274
+ },
+ {
+  "name": "ca.airiskmanagement/shadow-ai-list",
+  "url": "https://ailist.airiskmanagement.ca/mcp",
+  "type": "streamable-http",
+  "published": "2026-06-23",
+  "updated": "2026-06-23",
+  "state": "answered",
+  "detail": "shadow-ai-list 2025-06-18",
+  "ms": 718
+ },
+ {
+  "name": "com.commonlands/optics-mcp",
+  "url": "https://mcp.commonlands.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-07",
+  "updated": "2026-08-07",
+  "state": "answered",
+  "detail": "commonlands-mcp 2025-06-18",
+  "ms": 1204
+ },
+ {
+  "name": "com.maplith/maplith",
+  "url": "https://app.maplith.com/api/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-01",
+  "updated": "2026-09-01",
+  "state": "auth_required",
+  "detail": "Unauthorized: missing or invalid agent key",
+  "ms": 667
+ },
+ {
+  "name": "ci.git/mymlh-mcp-server",
+  "url": "https://mymlh-mcp.git.ci/mcp",
+  "type": "streamable-http",
+  "published": "2025-09-18",
+  "updated": "2025-09-18",
+  "state": "auth_required",
+  "detail": "invalid_token",
+  "ms": 353
+ },
+ {
+  "name": "ai.svtr/aidb",
+  "url": "https://svtr.ai/api/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-06",
+  "updated": "2026-08-06",
+  "state": "answered",
+  "detail": "svtr-aidb 2025-06-18",
+  "ms": 1130
+ },
+ {
+  "name": "bio.irishealth/iris",
+  "url": "https://api.irishealth.bio/mcp",
+  "type": "streamable-http",
+  "published": "2026-06-23",
+  "updated": "2026-06-23",
+  "state": "auth_required",
+  "detail": "Authentication required.",
+  "ms": 733
+ },
+ {
+  "name": "ai.etincel/etincel-nonfiction",
+  "url": "https://etincel.ai/api/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-15",
+  "updated": "2026-08-15",
+  "state": "auth_required",
+  "detail": "invalid_token",
+  "ms": 680
+ },
+ {
+  "name": "app.robohub/robohub",
+  "url": "https://robohub.app/api/mcp",
+  "type": "streamable-http",
+  "published": "2026-06-10",
+  "updated": "2026-06-10",
+  "state": "answered",
+  "detail": "robohub 2025-06-18",
+  "ms": 653
+ },
+ {
+  "name": "com.crowdhum/crowdhum",
+  "url": "https://mcp.crowdhum.com",
+  "type": "streamable-http",
+  "published": "2026-07-09",
+  "updated": "2026-07-09",
+  "state": "auth_required",
+  "detail": "unauthorized",
+  "ms": 596
+ },
+ {
+  "name": "com.stratalize/governance",
+  "url": "https://www.stratalize.com/api/mcp-public?vertical=governance",
+  "type": "streamable-http",
+  "published": "2026-06-21",
+  "updated": "2026-06-21",
+  "state": "answered",
+  "detail": "stratalize-intelligence 2025-06-18",
+  "ms": 996
+ },
+ {
+  "name": "com.pdf-redaction/pdf-redaction-mcp",
+  "url": "https://api.pdf-redaction.com/mcp/",
+  "type": "streamable-http",
+  "published": "2026-07-20",
+  "updated": "2026-07-20",
+  "state": "auth_required",
+  "detail": "invalid_token",
+  "ms": 1308
+ },
+ {
+  "name": "ai.b77/web-analytics",
+  "url": "https://web-analytics.b77.ai/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-14",
+  "updated": "2026-08-14",
+  "state": "not_mcp",
+  "detail": "http 401, unparseable",
+  "ms": 806
+ },
+ {
+  "name": "com.volunteerreminder/mcp",
+  "url": "https://mcp.volunteerreminder.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-07",
+  "updated": "2026-09-07",
+  "state": "answered",
+  "detail": "volunteerreminder 2025-06-18",
+  "ms": 291
+ },
+ {
+  "name": "ai.kaiv/version-truth",
+  "url": "https://api.kaiv.ai/api/bridge/mcp/version-truth-ca7b5b8c",
+  "type": "streamable-http",
+  "published": "2026-08-20",
+  "updated": "2026-08-20",
+  "state": "answered",
+  "detail": "version-truth 2025-06-18",
+  "ms": 623
+ },
+ {
+  "name": "com.inboxpolicy/send-decision",
+  "url": "https://mcp.inboxpolicy.com",
+  "type": "streamable-http",
+  "published": "2026-07-03",
+  "updated": "2026-07-03",
+  "state": "not_mcp",
+  "detail": "http 530",
+  "ms": 104
+ },
+ {
+  "name": "com.scrubmytext/tools",
+  "url": "https://api.scrubmytext.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-19",
+  "updated": "2026-08-19",
+  "state": "answered",
+  "detail": "com.scrubmytext/tools 2025-11-25",
+  "ms": 200
+ },
+ {
+  "name": "com.bespree/resumes",
+  "url": "https://bespree.com/api/v1/resume/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-08",
+  "updated": "2026-09-08",
+  "state": "not_mcp",
+  "detail": "http 401",
+  "ms": 541
+ },
+ {
+  "name": "com.klarefi/mcp",
+  "url": "https://www.klarefi.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-10",
+  "updated": "2026-08-10",
+  "state": "answered",
+  "detail": "klarefi-mcp 2025-11-25",
+  "ms": 652
+ },
+ {
+  "name": "com.economicium/mcp",
+  "url": "https://economicium-mcp.economicium.workers.dev/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-10",
+  "updated": "2026-08-10",
+  "state": "answered",
+  "detail": "economicium 2025-06-18",
+  "ms": 410
+ },
+ {
+  "name": "com.seoapi/yandexbot",
+  "url": "https://yandexbot.seoapi.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-15",
+  "updated": "2026-07-15",
+  "state": "answered",
+  "detail": "yandexbot 2025-06-18",
+  "ms": 85
+ },
+ {
+  "name": "com.docimprint/api",
+  "url": "https://api.docimprint.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-21",
+  "updated": "2026-07-21",
+  "state": "answered",
+  "detail": "DocImprint 2025-06-18",
+  "ms": 2908
+ },
+ {
+  "name": "com.knownvehicle/site",
+  "url": "https://knownvehicle.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-06",
+  "updated": "2026-09-06",
+  "state": "answered",
+  "detail": "KnownVehicle (knownvehicle.com) 2025-06-18",
+  "ms": 2865
+ },
+ {
+  "name": "ai.latlong/map-mcp",
+  "url": "https://geocp.latlong.ai/mcp/",
+  "type": "streamable-http",
+  "published": "2026-09-02",
+  "updated": "2026-09-02",
+  "state": "answered",
+  "detail": "latlong-maps 2025-06-18",
+  "ms": 341
+ },
+ {
+  "name": "email.templated/mcp",
+  "url": "https://app.templated.email/api/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-22",
+  "updated": "2026-07-22",
+  "state": "auth_required",
+  "detail": "MCP requires an API key: Authorization: Bearer tmpl_sk_...",
+  "ms": 767
+ },
+ {
+  "name": "ai.betslipdoctor/mcp",
+  "url": "https://api.betslipdoctor.ai/api/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-19",
+  "updated": "2026-08-19",
+  "state": "answered",
+  "detail": "betslip-doctor 2025-06-18",
+  "ms": 456
+ },
+ {
+  "name": "com.dyndns-server.noon-ai/image-video-anonymization-mcp",
+  "url": "https://noon-ai.dyndns-server.com/image-video-anonymization-mcp",
+  "type": "streamable-http",
+  "published": "2026-08-23",
+  "updated": "2026-08-23",
+  "state": "not_mcp",
+  "detail": "http 401, unparseable",
+  "ms": 789
+ },
+ {
+  "name": "io.github.Br0ski777/tech-enrichment",
+  "url": "https://tech-enrichment.api.klymax402.com/mcp",
+  "type": "sse",
+  "published": "2026-05-16",
+  "updated": "2026-05-16",
+  "state": "answered",
+  "detail": "tech-enrichment 2024-11-05",
+  "ms": 837
+ },
+ {
+  "name": "com.markmesh/trademarks",
+  "url": "https://markmesh.com/api/v1/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-03",
+  "updated": "2026-08-03",
+  "state": "not_mcp",
+  "detail": "http 401",
+  "ms": 1006
+ },
+ {
+  "name": "ai.b77/nightscout",
+  "url": "https://nightscout.b77.ai/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-14",
+  "updated": "2026-08-14",
+  "state": "not_mcp",
+  "detail": "http 401, unparseable",
+  "ms": 809
+ },
+ {
+  "name": "com.acornreply/server",
+  "url": "https://mcp.acornreply.com",
+  "type": "streamable-http",
+  "published": "2026-09-09",
+  "updated": "2026-09-09",
+  "state": "not_mcp",
+  "detail": "http 401, unparseable",
+  "ms": 722
+ },
+ {
+  "name": "com.runvouch/runvouch",
+  "url": "https://api.runvouch.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-26",
+  "updated": "2026-08-26",
+  "state": "answered",
+  "detail": "runvouch 2025-06-18",
+  "ms": 762
+ },
+ {
+  "name": "com.koalcheck/koalcheck",
+  "url": "https://mcp.koalcheck.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-05",
+  "updated": "2026-07-05",
+  "state": "not_mcp",
+  "detail": "http 307, unparseable",
+  "ms": 571
+ },
+ {
+  "name": "ae.propick/propick",
+  "url": "https://propick.ae/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-25",
+  "updated": "2026-08-25",
+  "state": "auth_required",
+  "detail": "Unauthorized",
+  "ms": 817
+ },
+ {
+  "name": "ai.rosterresolve/roster",
+  "url": "https://{roster_host}/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-23",
+  "updated": "2026-07-23",
+  "state": "unreachable",
+  "detail": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+  "ms": 24
+ },
+ {
+  "name": "com.tomesphere/tomesphere",
+  "url": "https://mcp.tomesphere.com/api/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-06",
+  "updated": "2026-07-06",
+  "state": "answered",
+  "detail": "tomesphere-mcp 2025-03-26",
+  "ms": 505
+ },
+ {
+  "name": "ai.balancos/mcp",
+  "url": "https://mcp.balancos.ai/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-06",
+  "updated": "2026-09-06",
+  "state": "auth_required",
+  "detail": "invalid_token",
+  "ms": 890
+ },
+ {
+  "name": "io.github.Amalgix-io/Amalgix",
+  "url": "https://amalgix.io/mcp",
+  "type": "streamable-http",
+  "published": "2026-05-30",
+  "updated": "2026-05-30",
+  "state": "answered",
+  "detail": "x402-agentic-router 2025-06-18",
+  "ms": 1127
+ },
+ {
+  "name": "com.thewheelatlas/wheel-atlas",
+  "url": "https://thewheelatlas.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-26",
+  "updated": "2026-08-26",
+  "state": "answered",
+  "detail": "the-wheel-atlas 2025-06-18",
+  "ms": 570
+ },
+ {
+  "name": "com.makeupar/beauty",
+  "url": "https://mcp-api-01.makeupar.com/mcp/beauty",
+  "type": "streamable-http",
+  "published": "2026-08-11",
+  "updated": "2026-08-11",
+  "state": "answered",
+  "detail": "YouCam for Beauty & Skin Care 2025-06-18",
+  "ms": 1191
+ },
+ {
+  "name": "com.dyndns-server.noon-ai/face-blur-redaction-mcp",
+  "url": "https://noon-ai.dyndns-server.com/face-blur-redaction-mcp",
+  "type": "streamable-http",
+  "published": "2026-08-23",
+  "updated": "2026-08-23",
+  "state": "not_mcp",
+  "detail": "http 401, unparseable",
+  "ms": 685
+ },
+ {
+  "name": "com.a2awire/data-model-context-protocol-mcp-server-discovery",
+  "url": "https://a2awire.com/mcp/data/ghmcp-new-mcp-servers-on-github-822376/http",
+  "type": "streamable-http",
+  "published": "2026-09-06",
+  "updated": "2026-09-06",
+  "state": "answered",
+  "detail": "a2awire 2025-06-18",
+  "ms": 1271
+ },
+ {
+  "name": "au.com.totalparks/mcp",
+  "url": "https://mcp.totalparks.com.au/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-20",
+  "updated": "2026-07-20",
+  "state": "answered",
+  "detail": "Total Parks 2025-06-18",
+  "ms": 1321
+ },
+ {
+  "name": "coach.marian/eng-leadership-toolkit",
+  "url": "https://www.marian.coach/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-09",
+  "updated": "2026-08-09",
+  "state": "answered",
+  "detail": "eng-leadership-toolkit 2025-06-18",
+  "ms": 2336
+ },
+ {
+  "name": "ai.dataecho/mcp",
+  "url": "https://dataecho.ai/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-04",
+  "updated": "2026-07-04",
+  "state": "answered",
+  "detail": "dataecho 2025-06-18",
+  "ms": 825
+ },
+ {
+  "name": "app.wishpool/algeria-payments-mcp",
+  "url": "https://mcp-dz.wishpool.app/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-09",
+  "updated": "2026-07-09",
+  "state": "unreachable",
+  "detail": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+  "ms": 24
+ },
+ {
+  "name": "com.dveracity/semantic-mcp",
+  "url": "https://api.dveracity.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-08",
+  "updated": "2026-09-08",
+  "state": "auth_required",
+  "detail": "auth_required",
+  "ms": 597
+ },
+ {
+  "name": "io.github.Br0ski777/url-shortener",
+  "url": "https://url-shortener.api.klymax402.com/mcp",
+  "type": "sse",
+  "published": "2026-05-16",
+  "updated": "2026-05-16",
+  "state": "answered",
+  "detail": "url-shortener 2024-11-05",
+  "ms": 837
+ },
+ {
+  "name": "com.unlistedhomes/unlisted",
+  "url": "https://api.unlistedhomes.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-01",
+  "updated": "2026-09-01",
+  "state": "not_mcp",
+  "detail": "http 403, unparseable",
+  "ms": 144
+ },
+ {
+  "name": "com.getuserfeedback/mcp",
+  "url": "https://mcp.getuserfeedback.com/",
+  "type": "streamable-http",
+  "published": "2026-09-07",
+  "updated": "2026-09-07",
+  "state": "auth_required",
+  "detail": "Unauthorized",
+  "ms": 882
+ },
+ {
+  "name": "com.tizonaintelligence/tizona",
+  "url": "https://tizonaintelligence.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-28",
+  "updated": "2026-08-28",
+  "state": "answered",
+  "detail": "tizona 2025-06-18",
+  "ms": 116
+ },
+ {
+  "name": "app.datasnipe/datasnipe-mcp",
+  "url": "https://datasnipe.app/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-07",
+  "updated": "2026-08-07",
+  "state": "not_mcp",
+  "detail": "http 401, unparseable",
+  "ms": 746
+ },
+ {
+  "name": "com.southlondonscientific/clara",
+  "url": "https://clara-mcp.southlondonscientific.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-05-05",
+  "updated": "2026-05-05",
+  "state": "answered",
+  "detail": "clara 2025-06-18",
+  "ms": 1201
+ },
+ {
+  "name": "app.witwiki/witwiki",
+  "url": "https://api.witwiki.app/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-06",
+  "updated": "2026-09-06",
+  "state": "not_mcp",
+  "detail": "http 401, unparseable",
+  "ms": 711
+ },
+ {
+  "name": "com.moltlinestudio/humanizer",
+  "url": "https://mcp.moltlinestudio.com/humanizer",
+  "type": "streamable-http",
+  "published": "2026-09-08",
+  "updated": "2026-09-08",
+  "state": "unreachable",
+  "detail": "URLError: <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>",
+  "ms": 81
+ },
+ {
+  "name": "ai.assetlog/assetlog",
+  "url": "https://api.assetlog.ai/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-29",
+  "updated": "2026-08-29",
+  "state": "auth_required",
+  "detail": "Missing Authorization Bearer token",
+  "ms": 683
+ },
+ {
+  "name": "ai.meetsquad/squad",
+  "url": "https://mcp.meetsquad.ai/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-02",
+  "updated": "2026-09-02",
+  "state": "auth_required",
+  "detail": "invalid_token",
+  "ms": 627
+ },
+ {
+  "name": "com.heykairon/kairon",
+  "url": "https://app.heykairon.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-05",
+  "updated": "2026-08-05",
+  "state": "auth_required",
+  "detail": "unauthorized",
+  "ms": 749
+ },
+ {
+  "name": "com.puppetflow/mcp",
+  "url": "https://{instance_host}/api/workspaces/{workspace}/mcp-server/http",
+  "type": "streamable-http",
+  "published": "2026-08-31",
+  "updated": "2026-08-31",
+  "state": "unreachable",
+  "detail": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+  "ms": 20
+ },
+ {
+  "name": "com.healthai/radar",
+  "url": "https://constat.dev/api/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-30",
+  "updated": "2026-07-30",
+  "state": "answered",
+  "detail": "com.healthai/radar 2025-06-18",
+  "ms": 316
+ },
+ {
+  "name": "com.postgate-ai/microsoft-exchange",
+  "url": "https://mcp.postgate-ai.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-23",
+  "updated": "2026-08-23",
+  "state": "auth_required",
+  "detail": "authentication required",
+  "ms": 1063
+ },
+ {
+  "name": "com.mcptoplist/mcptoplist",
+  "url": "https://mcptoplist.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-24",
+  "updated": "2026-07-24",
+  "state": "answered",
+  "detail": "mcptoplist 2025-06-18",
+  "ms": 1897
+ },
+ {
+  "name": "ai.perlucem/tbpi",
+  "url": "https://app.perlucem.ai/api/v1/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-02",
+  "updated": "2026-09-02",
+  "state": "auth_required",
+  "detail": "unauthorized",
+  "ms": 1172
+ },
+ {
+  "name": "com.tern0/resolver",
+  "url": "https://mcp.tern0.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-11",
+  "updated": "2026-08-11",
+  "state": "answered",
+  "detail": "Tern 2025-06-18",
+  "ms": 386
+ },
+ {
+  "name": "io.github.Br0ski777/regex-generator",
+  "url": "https://regex-generator.api.klymax402.com/mcp",
+  "type": "sse",
+  "published": "2026-05-16",
+  "updated": "2026-05-16",
+  "state": "answered",
+  "detail": "regex-generator 2024-11-05",
+  "ms": 839
+ },
+ {
+  "name": "fr.izifete/prestataires",
+  "url": "https://izifete.fr/mcp/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-15",
+  "updated": "2026-07-15",
+  "state": "answered",
+  "detail": "Izifete \u2014 Prestataires \u00e9v\u00e9nementiels en France et \u00e0 Monaco 2025-06-18",
+  "ms": 1176
+ },
+ {
+  "name": "com.konbiniapi/mcp",
+  "url": "https://mcp.konbiniapi.com",
+  "type": "streamable-http",
+  "published": "2026-04-21",
+  "updated": "2026-04-21",
+  "state": "auth_required",
+  "detail": "Unauthorized",
+  "ms": 390
+ },
+ {
+  "name": "com.cloziq/cloziq",
+  "url": "https://mcp.cloziq.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-12",
+  "updated": "2026-08-12",
+  "state": "auth_required",
+  "detail": "invalid_token",
+  "ms": 582
+ },
+ {
+  "name": "ai.darkfunnels/whatsapp-sales-agent",
+  "url": "https://mcp.darkfunnels.ai/mcp?features=all",
+  "type": "streamable-http",
+  "published": "2026-09-04",
+  "updated": "2026-09-04",
+  "state": "auth_required",
+  "detail": "unauthorized",
+  "ms": 759
+ },
+ {
+  "name": "guide.facilitiesleader/guide-registry",
+  "url": "https://facilitiesleader.guide/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-08",
+  "updated": "2026-09-08",
+  "state": "answered",
+  "detail": "bicycle-guide-registry 2025-06-18",
+  "ms": 1101
+ },
+ {
+  "name": "com.freelanceclearing/marketplace",
+  "url": "https://freelanceclearing.com/api/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-21",
+  "updated": "2026-08-21",
+  "state": "answered",
+  "detail": "freelance-clearing 2025-06-18",
+  "ms": 806
+ },
+ {
+  "name": "com.ezoic/setup",
+  "url": "https://setup-agent.ezoic.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-07",
+  "updated": "2026-07-07",
+  "state": "answered",
+  "detail": "Ezoic Setup 2025-06-18",
+  "ms": 1131
+ },
+ {
+  "name": "com.clauxel.a2aidentitytoll/a2aidentitytoll-mcp",
+  "url": "https://a2aidentitytoll.clauxel.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-05-20",
+  "updated": "2026-05-20",
+  "state": "unreachable",
+  "detail": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+  "ms": 27
+ },
+ {
+  "name": "app.zenable/zenable",
+  "url": "https://mcp.zenable.app/",
+  "type": "streamable-http",
+  "published": "2025-09-28",
+  "updated": "2025-09-28",
+  "state": "not_mcp",
+  "detail": "http 401, unparseable",
+  "ms": 1322
+ },
+ {
+  "name": "ai.waterr/mcp",
+  "url": "https://api.waterr.ai/v1/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-05",
+  "updated": "2026-08-05",
+  "state": "not_mcp",
+  "detail": "http 401",
+  "ms": 805
+ },
+ {
+  "name": "com.temsor/api",
+  "url": "https://api.temsor.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-26",
+  "updated": "2026-07-26",
+  "state": "answered",
+  "detail": "temsor API 2025-06-18",
+  "ms": 674
+ },
+ {
+  "name": "com.netentropyscore/coherence-signal",
+  "url": "https://api.netentropyscore.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-06-20",
+  "updated": "2026-06-20",
+  "state": "answered",
+  "detail": "nes-coherence 2025-06-18",
+  "ms": 656
+ },
+ {
+  "name": "com.shpbl/repository-audit-and-repair",
+  "url": "https://shpbl.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-25",
+  "updated": "2026-08-25",
+  "state": "auth_required",
+  "detail": "unauthorized",
+  "ms": 3945
+ },
+ {
+  "name": "com.eurocollis/eurocollis",
+  "url": "https://api.eurocollis.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-09-03",
+  "updated": "2026-09-03",
+  "state": "answered",
+  "detail": "eurocollis-mcp 2025-06-18",
+  "ms": 6839
+ },
+ {
+  "name": "io.github.AlexanderLawson17/revettr-mcp",
+  "url": "https://revettr.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-03-29",
+  "updated": "2026-03-29",
+  "state": "answered",
+  "detail": "Revettr 2025-06-18",
+  "ms": 843
+ },
+ {
+  "name": "com.clauxel.coralquery/coralquery-mcp",
+  "url": "https://coralquery.clauxel.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-05-25",
+  "updated": "2026-05-25",
+  "state": "unreachable",
+  "detail": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+  "ms": 26
+ },
+ {
+  "name": "com.stratalize/stealth",
+  "url": "https://www.stratalize.com/api/stealth/{server_name}",
+  "type": "streamable-http",
+  "published": "2026-06-21",
+  "updated": "2026-06-21",
+  "state": "protocol_error",
+  "detail": "server_name must be your configured stealth server id (e.g. my-crm), not a URL template placeholder.",
+  "ms": 396
+ },
+ {
+  "name": "dev.realitygraph/verification-tools",
+  "url": "https://realitygraph.dev/api/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-22",
+  "updated": "2026-07-22",
+  "state": "answered",
+  "detail": "reality-graph-verification-tools 2025-06-18",
+  "ms": 920
+ },
+ {
+  "name": "io.github.3esign/ratchet",
+  "url": "https://ratchetx.xyz/api/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-29",
+  "updated": "2026-08-29",
+  "state": "not_mcp",
+  "detail": "http 405, unparseable",
+  "ms": 233
+ },
+ {
+  "name": "io.github.Anymfah/stellary-project-management",
+  "url": "https://api.stellary.co/mcp",
+  "type": "streamable-http",
+  "published": "2026-07-27",
+  "updated": "2026-07-27",
+  "state": "auth_required",
+  "detail": "Bearer token required",
+  "ms": 917
+ },
+ {
+  "name": "io.1lookup/1lookup",
+  "url": "https://app.1lookup.io/api/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-20",
+  "updated": "2026-08-20",
+  "state": "auth_required",
+  "detail": "invalid_token",
+  "ms": 469
+ },
+ {
+  "name": "ai.smithery/arjunkmrm-ts-test-2",
+  "url": "https://server.smithery.ai/@arjunkmrm/ts-test-2/mcp",
+  "type": "streamable-http",
+  "published": "2025-10-04",
+  "updated": "2025-10-04",
+  "state": "not_mcp",
+  "detail": "http 404, unparseable",
+  "ms": 578
+ },
+ {
+  "name": "com.leadmarina/leadmarina",
+  "url": "https://leadmarina.com/api/mcp",
+  "type": "streamable-http",
+  "published": "2026-08-01",
+  "updated": "2026-08-01",
+  "state": "answered",
+  "detail": "leadmarina 2025-06-18",
+  "ms": 1389
+ },
+ {
+  "name": "com.clauxel.schemadriftgate/schemadriftgate-mcp",
+  "url": "https://schemadriftgate.clauxel.com/mcp",
+  "type": "streamable-http",
+  "published": "2026-05-19",
+  "updated": "2026-05-19",
+  "state": "unreachable",
+  "detail": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+  "ms": 26
+ }
+]
