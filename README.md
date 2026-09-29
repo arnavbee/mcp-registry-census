@@ -20,7 +20,8 @@ Arnav Singh, probe run 9 September 2026. Every figure can be rebuilt from the fi
 - Limits: one moment, one vantage point (a home connection in India), remote servers only.
   Section 5 has the rest.
 
-You can check all of it without touching anyone's server: every intermediate file is here.
+You can check all of it without touching anyone's server: every intermediate file is here,
+and `python3 verify.py` rebuilds all 28 figures from them offline.
 
 ---
 
@@ -111,11 +112,17 @@ Each endpoint lands in exactly one of five states:
 
 ### 3.5 Retry (`probe2.py`), the part that matters
 
-The first pass ran 12 workers with a 12-second timeout. The retry ran **3 workers with a
-25-second timeout** over everything that came back `unreachable`.
+The first pass ran 12 workers with a 12-second timeout (`probed.json`). The retry ran **3 workers
+with a 25-second timeout** over every row that was not already `answered` (`retry_in.json`, 149
+rows); only the 24 `unreachable` ones bear on the claim below.
 
 **4 of the 24 "unreachable" endpoints answered on the second pass.** They were never down. The
-harness was.
+harness was. That diff is `probed.json` → `final.json`, and it is the only thing that changed:
+the retry rescued four rows and demoted none. `verify.py` recomputes it.
+
+⚠️ `retry_out.json` is the output of an earlier, partial retry pass and does **not** reproduce
+`final.json` (it flips one row, not four). It is kept because it was run, but **`final.json` is
+the authoritative post-retry file** and every figure below comes from it.
 
 That is a **16.7% false-negative rate inside the one state most likely to be over-reported**, and
 it is the most important check in this document, because it is the one that would have made the
@@ -197,6 +204,13 @@ python3 sample.py 300 42            # → sample.json         (n = 300; the comm
 python3 probe.py sample.json probed.json
 python3 probe2.py retry_in.json retry_out.json   # unreachable only, 3 workers, 25s
 python3 tl.py                       # → tools.json          (tools/list over the 155)
+```
+
+Nothing above is needed to check the arithmetic. Every number in this README is recomputed from
+the committed JSON, offline, by:
+
+```bash
+python3 verify.py                   # 28 figures, exits 1 on any mismatch
 ```
 
 Every intermediate file is in this repo, so the numbers can be checked without re-running
