@@ -6,7 +6,7 @@
 #
 # The README claims "every figure can be rebuilt from the files in this repo".
 # This is that claim, executable.
-import json, statistics, sys
+import json, math, statistics, sys
 from collections import Counter
 from urllib.parse import urlsplit
 
@@ -83,6 +83,23 @@ check("  median tools", int(statistics.median(counts)), 6)
 check("  mean tools", round(sum(counts) / len(counts), 1), 10.1)
 check("  90th percentile", counts[int(0.9 * len(counts))], 21)
 check("  max tools", max(counts), 71)
+
+# --- 3.3 / 4.1 the error bars ------------------------------------------------
+# The README quotes a margin on the two headline proportions. Same method it
+# states: 95% Wald, times the finite-population correction for drawing n of N
+# without replacement. Those margins were the only published figures this
+# script could not rebuild.
+N_FRAME = 7160
+
+def moe(k, n, N=N_FRAME):
+    """95% margin of error in percentage points, finite-population corrected."""
+    p = k / n
+    se = math.sqrt(p * (1 - p) / n) * math.sqrt((N - n) / (N - 1))
+    return round(100 * 1.96 * se, 1)
+
+check("margin on answered", moe(states["answered"], len(final)), 5.5, "pp, 95% + FPC")
+check("margin on broken", moe(broken, len(final)), 4.6, "pp, 95% + FPC")
+check("margin at p=0.5, n=3000", moe(1500, 3000), 1.4, "what 10x the sample would buy")
 
 # --- report ------------------------------------------------------------------
 bad = 0

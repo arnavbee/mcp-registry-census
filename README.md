@@ -21,7 +21,7 @@ Arnav Singh, probe run 9 September 2026. Every figure can be rebuilt from the fi
   Section 5 has the rest.
 
 You can check all of it without touching anyone's server: every intermediate file is here,
-and `python3 verify.py` rebuilds all 28 figures from them offline.
+and `python3 verify.py` rebuilds all 31 figures from them offline.
 
 ---
 
@@ -86,7 +86,7 @@ positions run from index 4 to 7,145, mean gap 23.9 ≈ 7160/300, consistent with
 286 distinct hosts.
 
 300 was chosen for the error bar it buys: ±5.5 points at p≈0.5 on a population of 7,160, with the
-finite-population correction applied. Ten times the sample would buy ±1.7. It was not worth ten
+finite-population correction applied. Ten times the sample would buy ±1.4. It was not worth ten
 times the traffic to other people's servers.
 
 ### 3.4 Probe (`probe.py`)
@@ -210,7 +210,7 @@ Nothing above is needed to check the arithmetic. Every number in this README is 
 the committed JSON, offline, by:
 
 ```bash
-python3 verify.py                   # 28 figures, exits 1 on any mismatch
+python3 verify.py                   # 31 figures, exits 1 on any mismatch
 ```
 
 Every intermediate file is in this repo, so the numbers can be checked without re-running
