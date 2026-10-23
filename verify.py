@@ -18,8 +18,8 @@ META = lambda r: (r.get("_meta") or {}).get("io.modelcontextprotocol.registry/of
 host = lambda u: (urlsplit(u).netloc or "").lower()
 
 checks = []
-def check(label, got, want, note=""):
-    checks.append((label, got, want, note))
+def check(label, got, want, note="", kind="figure"):
+    checks.append((label, got, want, note, kind))
 
 # --- 3.2 the frame -----------------------------------------------------------
 raw = load("registry_raw.json")
@@ -84,6 +84,27 @@ check("  mean tools", round(sum(counts) / len(counts), 1), 10.1)
 check("  90th percentile", counts[int(0.9 * len(counts))], 21)
 check("  max tools", max(counts), 71)
 
+# --- the chain ---------------------------------------------------------------
+# Every check above counts rows inside one file. None of them would catch the
+# failure that would matter most: a sample drawn from somewhere other than the
+# stated frame, or a later file quietly covering a different set of endpoints.
+# All 31 figures would still match, and they would describe a population the
+# README never claimed. These are the joins between the files, so they run here,
+# once every file is loaded.
+sample_urls = {s["url"] for s in sample}
+check("sample drawn from the frame", len(sample_urls - {p["url"] for p in pool}), 0,
+      "URLs in sample.json that are not in pool.json", kind="chain")
+check("sample has no repeated URL", len(sample) - len(sample_urls), 0,
+      "n=300 is 300 distinct endpoints", kind="chain")
+check("first pass covers the sample", {x["url"] for x in probed} == sample_urls, True,
+      "probed.json is the sample, not a subset", kind="chain")
+check("post-retry file covers the sample", {x["url"] for x in final} == sample_urls, True,
+      "the retry added and dropped nobody", kind="chain")
+check("tools.json is exactly the answered set",
+      {x["url"] for x in tools} == {x["url"] for x in final if x["state"] == "answered"}, True,
+      "tools/list was attempted on every server that handshook, and only those",
+      kind="chain")
+
 # --- 3.3 / 4.1 the error bars ------------------------------------------------
 # The README quotes a margin on the two headline proportions. Same method it
 # states: 95% Wald, times the finite-population correction for drawing n of N
@@ -103,15 +124,19 @@ check("margin at p=0.5, n=3000", moe(1500, 3000), 1.4, "what 10x the sample woul
 
 # --- report ------------------------------------------------------------------
 bad = 0
-for label, got, want, note in checks:
+seen = Counter()
+for label, got, want, note, kind in checks:
     ok = got == want
     bad += not ok
+    seen[kind, ok] += 1
     line = f"{'ok ' if ok else 'FAIL'}  {label:<34} {got!s:>8}"
     if not ok:
-        line += f"   README says {want}"
+        line += f"   expected {want}" if kind == "chain" else f"   README says {want}"
     elif note:
         line += f"   {note}"
     print(line)
 
-print(f"\n{len(checks) - bad}/{len(checks)} figures match README.md")
+figs, chains = seen["figure", True], seen["chain", True]
+print(f"\n{figs}/{seen['figure', True] + seen['figure', False]} figures match README.md, "
+      f"{chains}/{seen['chain', True] + seen['chain', False]} chain checks pass")
 sys.exit(1 if bad else 0)
