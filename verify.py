@@ -91,6 +91,18 @@ check("  max tools", max(counts), 71)
 # All 31 figures would still match, and they would describe a population the
 # README never claimed. These are the joins between the files, so they run here,
 # once every file is loaded.
+# pool.json is the hinge: every later file is checked against it, so if pool.json
+# itself were not the frame, the whole chain would be anchored to nothing. Rebuild
+# it from registry_raw.json by filter_pool.py's own rule and compare row for row.
+rebuilt = [(((r.get("server") or {}).get("name")),
+            ((r.get("server") or {}).get("remotes") or [{}])[0].get("url"),
+            ((r.get("server") or {}).get("remotes") or [{}])[0].get("type"))
+           for r in remote]
+check("pool.json is the frame, rebuilt",
+      [(p["name"], p["url"], p["type"]) for p in pool] == rebuilt, True,
+      "pool.json == active + isLatest + first remote, recomputed from registry_raw.json",
+      kind="chain")
+
 sample_urls = {s["url"] for s in sample}
 check("sample drawn from the frame", len(sample_urls - {p["url"] for p in pool}), 0,
       "URLs in sample.json that are not in pool.json", kind="chain")

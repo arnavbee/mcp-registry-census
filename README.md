@@ -22,7 +22,8 @@ Arnav Singh, probe run 9 September 2026. Every figure can be rebuilt from the fi
 
 You can check all of it without touching anyone's server: every intermediate file is here,
 and `python3 verify.py` rebuilds all 31 figures from them offline. It also joins the files to
-each other, so a sample drawn from outside the frame fails the check instead of passing it.
+each other, so a sample drawn from outside the frame fails the check instead of passing it, and
+rebuilds the frame itself from the 24 MB crawl, so a swapped endpoint fails too.
 
 ---
 
@@ -211,7 +212,7 @@ Nothing above is needed to check the arithmetic. Every number in this README is 
 the committed JSON, offline, by:
 
 ```bash
-python3 verify.py                   # 31 figures + 5 chain checks, exits 1 on any mismatch
+python3 verify.py                   # 31 figures + 6 chain checks, exits 1 on any mismatch
 ```
 
 Every intermediate file is in this repo, so the numbers can be checked without re-running
